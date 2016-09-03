@@ -1,0 +1,109 @@
+body {
+
+    background-color: black;
+}
+
+h1 {
+    color: blue;
+}
+p {
+    color: white;
+    font-family: arial;
+}
+
+ul {
+    list-style-type: none; /*жагсаалт маань урдаа тодотгох дугуй, тоо нтр байхгүй гэсэн үг */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a { /*  li tag  доторх  a tag ийн style*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+ 
+div.container { /*container class ийн div ийн style*/
+    width: 100%;
+
+  /*  border: 1px solid gray; */
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   	
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+aside {
+     background-image: url("backyard.jpg"); /* body hesgiin background zurag oruulah*/
+     background-position: center;
+     background-size: cover;
+     width: 100%;
+     height: 50%;
+
+
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+
+}
+
+div.img:hover {  /* hover гэдэг нь kursor тэр дээр очих үед хүрээний өнгө улаан болно гэсэн үг*/
+    border: 3px solid #777;
+    border-color: gray;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
